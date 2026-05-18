@@ -18,6 +18,8 @@ Press on a green square to place towers, click on a tower u want to move, legal 
 ## Lastly
 Game is not yet finished, it works but ill have to flush it out(add a way to replay without rerunning it over and over in the terminal, remove the green/red squares, and clean up code)
 
+All game logic comes from the referee module which we modified to accommodate , we just added a way to communicate between referee and our game code(and a human agent if used). it uses threads to run the referee in a separate thread and the main thread is reserved for the actual game...
+
 ## acknowledgements
 Like mentioned before I didn't come up with cascade, but everything else is me and team members work. All music and art created by me....
 
