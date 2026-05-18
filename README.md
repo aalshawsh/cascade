@@ -10,6 +10,8 @@ to run the game with 2 humanAgents run this: python3 -m myReferee myHumanAgent m
 
 to run the game with 1 humanAgent and a randomAgent: python3 -m myReferee myHumanAgent myRandomAgent
 
+if you want to add ur own agent you can just make sure it uses myReferee module
+
 ## Game mechanics:
 Press on a green square to place towers, click on a tower u want to move, legal moves are highlighted in green. To turn cascade mode on click the CASCADE? button on the bottom right of the screen legal squares should be purple(Make sure to turn it off)
 
